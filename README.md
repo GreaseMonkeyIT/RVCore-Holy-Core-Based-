@@ -3,7 +3,7 @@
 **RVCore** is a work-in-progress implementation of a RISC-V **RV32I** core written in **SystemVerilog**.  
 It is being developed as part of a personal learning journey into computer architecture and CPU design.
 
-This project is **heavily inspired by [HOLY-CORE](https://github.com/HugoBabinRiby/HOLY-CORE)** by [Hugo Babin-Riby](https://github.com/HugoBabinRiby). The clear and modular design of HOLY-CORE has served as the primary reference throughout development.
+This project is **heavily inspired by [HOLY-CORE](https://github.com/0BAB1/HOLY_CORE_COURSE)** by [Hugo Babin-Riby](https://github.com/0BAB1/). The clear and modular design of HOLY-CORE has served as the primary reference throughout development.
 
 ---
 
