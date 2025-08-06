@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1754463227" />
+    <testcase name="cpu_insrt_test" classname="test_cpu" file="/home/dextopsd/RISC-V/RVCore/cpu_implementation/tb/cpu/test_cpu.py" lineno="30" time="0.0018396377563476562" sim_time_ns="11.001" ratio_time="5979.981636080871" />
+  </testsuite>
+</testsuites>

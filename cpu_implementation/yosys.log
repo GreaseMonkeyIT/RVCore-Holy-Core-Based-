@@ -1,0 +1,1 @@
+ERROR: Can't open input file `read_verilog -sv src/*.sv; hierarchy -check -top cpu_yosys; synth -top cpu_yosys; write_verilog cpu_synth.v; write_json cpu.json' for reading: No such file or directory

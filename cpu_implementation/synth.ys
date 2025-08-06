@@ -1,0 +1,19 @@
+# synth.ys
+
+# Loading all SystemVerilog source files
+read_verilog -sv src/alu.sv
+read_verilog -sv src/control.sv
+read_verilog -sv src/memory_yosys.sv
+read_verilog -sv src/regfile_yosys.sv
+read_verilog -sv src/signext.sv
+read_verilog -sv src/cpu_yosys.sv
+
+# Set the top module; which is the CPU
+hierarchy -check -top cpu_yosys
+
+# Synthesis to RTLIL
+synth -top cpu_yosys
+
+# Write to synthesized RTL
+write_verilog cpu_synth.v
+write_json cpu.json
