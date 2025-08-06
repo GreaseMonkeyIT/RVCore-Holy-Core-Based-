@@ -1,53 +1,76 @@
-RVCore — A Simple RISC-V Core in SystemVerilog (WIP)
+# RVCore — A Simple RISC-V Core in SystemVerilog
 
-This is a work-in-progress RISC-V RV32I core written in SystemVerilog, developed as part of my personal learning journey into processor design and computer architecture.
+**RVCore** is a work-in-progress implementation of a RISC-V **RV32I** core written in **SystemVerilog**.  
+It is being developed as part of a personal learning journey into computer architecture and CPU design.
 
-The implementation is heavily inspired by HOLY-CORE by Hugo Babin-Riby, a clean and minimal RISC-V CPU core that has been immensely helpful as a reference.
+This project is **heavily inspired by [HOLY-CORE](https://github.com/HugoBabinRiby/HOLY-CORE)** by [Hugo Babin-Riby](https://github.com/HugoBabinRiby). The clear and modular design of HOLY-CORE has served as the primary reference throughout development.
 
-Currently Implemented Instructions
+---
 
-The following RV32I instructions are supported and have been tested:
+## Overview
 
-    lw – Load Word
+RVCore aims to gradually implement the base RV32I instruction set architecture in a readable and testable form. The current focus is on correctness, modularity, and educational clarity.
 
-    sw – Store Word
+---
 
-    add – Register-Register Addition
+## Implemented Instructions
 
-    or – Bitwise OR
+The following instructions from the RV32I base ISA have been successfully implemented and tested:
 
-    and – Bitwise AND
+- `add` – Register-register addition  
+- `or`  – Bitwise OR  
+- `and` – Bitwise AND  
+- `lw`  – Load word  
+- `sw`  – Store word  
 
-Work in Progress
+---
 
-    beq – Branch if Equal (currently being added)
+## Work in Progress
 
-Purpose
+The following instructions and features are currently under active development:
 
-This project is intended as a learning exercise, helping me understand:
+- `beq` – Branch if equal
 
-    Instruction decoding
+---
 
-    ALU design
+## Project Goals
 
-    Memory access handling
+- Learn CPU architecture and microarchitecture hands-on
+- Implement a functional, minimal RV32I CPU in SystemVerilog
+- Understand datapath, control logic, memory interface, and instruction decoding
+- Build a testbench to validate instruction behavior
+- Gradually add support for control flow and pipeline execution
 
-    Control signal generation
+---
 
-    Sequential logic design in SystemVerilog
+## Project Structure
 
-Eventually, this core may be extended with:
+RVCore/
+├── src/                 # SystemVerilog modules (ALU, RegFile, Control, etc.)
+├── tb/                  # Testbench (Cocotb-based)
+├── additional files     # Instruction memory, program loader, etc.
 
-    Control flow instructions
+---
 
-    A basic testbench and simulation setup
+## Build and Simulation
 
-    Support for pipelining and more instructions from RV32I
+Support for simulation (e.g. using Icarus Verilog or Verilator) is being added.  
+Instructions for compiling and running simple programs will be documented as the project matures.
 
-Acknowledgements
-	
-	This project draws directly from the HOLY-CORE project. Huge thanks to Hugo Babin-Riby for making such a clean and readable SystemVerilog implementation available. It has served as both a guide and a source of motivation.
+---
 
-Disclaimer
+## Acknowledgements
 
-	This project is for educational purposes. It is not optimized or complete, and things will break as development continues. Contributions, feedback, or ideas are welcome.
+This project is built on top of the concepts and structure provided by:
+
+**[HOLY-CORE](https://github.com/HugoBabinRiby/HOLY-CORE)**  
+Author: [Hugo Babin-Riby](https://github.com/HugoBabinRiby)
+
+HOLY-CORE has been an exceptional reference for understanding how to implement a clean, simple RISC-V core in SystemVerilog. RVCore would not exist in its current form without it.
+
+---
+
+## Disclaimer
+
+RVCore is a learning-focused project. It is not production-ready and is expected to evolve significantly.  
+Bug reports, suggestions, and constructive feedback are welcome.
