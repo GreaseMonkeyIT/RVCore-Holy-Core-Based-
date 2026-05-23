@@ -1,0 +1,9 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1779521998" />
+    <testcase name="reset_clears_memory_test" classname="test_memory" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/memory/test_memory.py" lineno="18" time="0.006443023681640625" sim_time_ns="129.0" ratio_time="20021.65541740675" />
+    <testcase name="word_write_read_test" classname="test_memory" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/memory/test_memory.py" lineno="32" time="0.0006198883056640625" sim_time_ns="10.0" ratio_time="16131.938461538462" />
+    <testcase name="byte_enable_test" classname="test_memory" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/memory/test_memory.py" lineno="61" time="0.00040411949157714844" sim_time_ns="5.0" ratio_time="12372.578171091445" />
+    <testcase name="sequential_word_write_test" classname="test_memory" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/memory/test_memory.py" lineno="91" time="0.0009691715240478516" sim_time_ns="33.0" ratio_time="34049.70036900369" />
+  </testsuite>
+</testsuites>

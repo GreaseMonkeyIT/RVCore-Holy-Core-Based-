@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1779529528" />
+    <testcase name="cpu_insrt_test" classname="test_cpu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/cpu/test_cpu.py" lineno="21" time="0.01076507568359375" sim_time_ns="76.0" ratio_time="7059.866761162296" />
+  </testsuite>
+</testsuites>

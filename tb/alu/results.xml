@@ -1,0 +1,18 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1779521909" />
+    <testcase name="add_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="29" time="0.024941444396972656" sim_time_ns="1001.0" ratio_time="40134.002829503304" />
+    <testcase name="sub_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="42" time="0.02272629737854004" sim_time_ns="1001.0" ratio_time="44045.890244542126" />
+    <testcase name="and_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="55" time="0.022058725357055664" sim_time_ns="1001.0" ratio_time="45378.8686244204" />
+    <testcase name="or_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="67" time="0.022803306579589844" sim_time_ns="1001.0" ratio_time="43897.142570365104" />
+    <testcase name="zero_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="79" time="0.0003299713134765625" sim_time_ns="2.0" ratio_time="6061.132947976878" />
+    <testcase name="default_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="90" time="0.00022649765014648438" sim_time_ns="2.0" ratio_time="8830.113684210526" />
+    <testcase name="xor_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="102" time="0.02259206771850586" sim_time_ns="1001.0000000000005" ratio_time="44307.586736739926" />
+    <testcase name="slt_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="114" time="0.022576570510864258" sim_time_ns="1001.0" ratio_time="44338.000739230985" />
+    <testcase name="sltu_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="128" time="0.021712303161621094" sim_time_ns="1001.0" ratio_time="46102.89348618615" />
+    <testcase name="sll_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="142" time="0.01176595687866211" sim_time_ns="501.0" ratio_time="42580.47221884498" />
+    <testcase name="srl_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="156" time="0.01201629638671875" sim_time_ns="501.0" ratio_time="41693.37904761905" />
+    <testcase name="sra_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="170" time="0.011858940124511719" sim_time_ns="501.0" ratio_time="42246.60844390832" />
+    <testcase name="last_bit_test" classname="test_alu" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/alu/test_alu.py" lineno="185" time="0.00047278404235839844" sim_time_ns="3.0" ratio_time="6345.391830559758" />
+  </testsuite>
+</testsuites>

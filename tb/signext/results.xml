@@ -1,0 +1,12 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1779521956" />
+    <testcase name="i_type_positive_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="23" time="0.0036482810974121094" sim_time_ns="2.0" ratio_time="548.2033721082212" />
+    <testcase name="i_type_negative_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="34" time="0.00024819374084472656" sim_time_ns="2.0000000000000004" ratio_time="8058.220941402499" />
+    <testcase name="i_type_random_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="46" time="0.00656890869140625" sim_time_ns="400.0" ratio_time="60892.915214866436" />
+    <testcase name="s_type_random_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="62" time="0.007146596908569336" sim_time_ns="400.00000000000006" ratio_time="55970.69557964971" />
+    <testcase name="b_type_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="80" time="0.00037598609924316406" sim_time_ns="8.0" ratio_time="21277.38237159163" />
+    <testcase name="j_type_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="120" time="0.00036025047302246094" sim_time_ns="8.0" ratio_time="22206.771674387823" />
+    <testcase name="u_type_test" classname="test_signext" file="/mnt/c/Users/Soumyadip/Documents/Claude/Projects/Portfolio_Page/My_Implementation_Old_Single_Cycle/tb/signext/test_signext.py" lineno="161" time="0.0004200935363769531" sim_time_ns="8.0" ratio_time="19043.37797956867" />
+  </testsuite>
+</testsuites>
